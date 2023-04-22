@@ -32,9 +32,9 @@ const NavMain = () => {
               <li><Link href="/vps/storage-vps">SEO</Link></li>
             </ul>
           </li>
+          <li><Link href="/support">Products</Link></li>
           <li><Link href="/dedicated">Success Stories</Link></li>
           {/* <li><Link href="/email">Email</Link></li> */}
-          <li><Link href="/support">Products</Link></li>
           <li><Link href="/contact">Contact</Link></li>
         </ul>
         <Link href="#"><a className='button view-desktop'>Login</a></Link>
