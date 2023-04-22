@@ -5,11 +5,11 @@ const FrontHero = () => {
       <div className="container">
         <div className="front-hero">
           <div className="front-hero-section front-hero-text">
-            <h1>Fast, Powerful, Secure and Reliable VPS Hosting</h1>
-            <p>High performance Windows VPS and Linux VPS backed by enterprise hardware, 10G network and excellent 24/7 customer care.</p>
+            <h1>We design, develop and modernize software applications.</h1>
+            <p>Engage Grow Biz to build a remote, Agile software development team to co-create or update your digital product with the latest web, mobile and cloud technologies.</p>
             <div className="flex-container">
-              <Link href="/vps/kvm-vps"><a className="button button-primary">KVM VPS</a></Link>
-              <Link href="/dedicated"><a className="button button-secondary">Dedicated Server</a></Link>
+              <Link href="/vps/kvm-vps"><a className="button button-primary">Services</a></Link>
+              <Link href="/dedicated"><a className="button button-secondary">Products</a></Link>
             </div>
           </div>{/* front-hero-text */}
           <div className="front-hero-section front-hero-image">

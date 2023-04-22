@@ -7,11 +7,11 @@ export default function Hosting() {
   return (
     <>
       <Head>
-        <title>Powerful Web Hosting</title>
+        <title>Expertise</title>
       </Head>
       <header className="header header-page">
         <Header />
-        <PageHeader title="Powerful Web Hosting" />
+        <PageHeader title="Expertise" />
       </header>
       <main className='main'>
         <div className='container'>

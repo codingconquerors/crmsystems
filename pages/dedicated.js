@@ -7,11 +7,11 @@ export default function Dedicated() {
   return (
     <>
       <Head>
-        <title>Dedicated Servers | Hext</title>
+        <title>Success Stories</title>
       </Head>
       <header className="header header-page">
         <Header />
-        <PageHeader title="Dedicated Server" />
+        <PageHeader title="Success Stories" />
       </header>
       <main className='main'>
         <div className='container'>

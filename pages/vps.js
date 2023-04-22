@@ -11,7 +11,7 @@ export default function Vps() {
       </Head>
       <header className="header header-page">
         <Header />
-        <PageHeader title="VPS Hosting" />
+        <PageHeader title="Services" />
       </header>
       <main className='main'>
         <div className='container'>
