@@ -54,8 +54,3 @@ I can integrate WHMCS and create a similar WHMCS theme for US$ 250
 - Google Fonts
 - Figma
 
-
-# Contact Developer
-https://dewcodes.com/contact
-
-You can also mail me at: ravi9793@gmail.com

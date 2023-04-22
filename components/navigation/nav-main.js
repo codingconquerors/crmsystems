@@ -14,7 +14,7 @@ const NavMain = () => {
       <nav className={"main-nav " + (menuOpen ? "active-mobile-menu" : "")}>
         <ul className='main-menu'>
           <li className='has-children'>
-            <Link href="/hosting">Hosting</Link>
+            <Link href="/hosting">Services</Link>
             <ul className='sub-menu'>
               <li><Link href="/hosting/web-hosting">Web Hosting</Link></li>
               <li><Link href="/hosting/reseller-hosting">Reseller Hosting</Link></li>
@@ -22,15 +22,15 @@ const NavMain = () => {
             </ul>
           </li>
           <li className='has-children'>
-            <Link href="/vps">VPS</Link>
+            <Link href="/vps">Expertise</Link>
             <ul className='sub-menu'>
               <li><Link href="/vps/kvm-vps">KVM VPS</Link></li>
               <li><Link href="/vps/managed-vps">Managed VPS</Link></li>
               <li><Link href="/vps/storage-vps">Storage VPS</Link></li>
             </ul>
           </li>
-          <li><Link href="/dedicated">Dedicated</Link></li>
-          <li><Link href="/email">Email</Link></li>
+          <li><Link href="/dedicated">Success Stories</Link></li>
+          {/* <li><Link href="/email">Email</Link></li> */}
           <li><Link href="/support">Support</Link></li>
           <li><Link href="/contact">Contact</Link></li>
         </ul>
