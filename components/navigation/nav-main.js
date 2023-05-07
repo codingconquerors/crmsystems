@@ -14,30 +14,30 @@ const NavMain = () => {
       <nav className={"main-nav " + (menuOpen ? "active-mobile-menu" : "")}>
         <ul className='main-menu'>
           <li className='has-children'>
-            <Link href="/hosting">Expertise</Link>
+            <Link href="#">Expertise</Link>
             <ul className='sub-menu'>
-              <li><Link href="/hosting/web-hosting">Web App Development</Link></li>
-              <li><Link href="/hosting/reseller-hosting">Mobile App Development</Link></li>
-              <li><Link href="/hosting/reseller-hosting">Software QA and Testing</Link></li>
-              <li><Link href="/hosting/wordpress-hosting">API Development</Link></li>
+              <li><Link href="/hosting/web-app-development">Web App Development</Link></li>
+              <li><Link href="/hosting/mobile-app-development">Mobile App Development</Link></li>
+              <li><Link href="/hosting/qa">Software QA and Testing</Link></li>
+              <li><Link href="/hosting/api-development">API Development</Link></li>
             </ul>
           </li>
           <li className='has-children'>
-            <Link href="/vps">Services</Link>
+            <Link href="#">Services</Link>
             <ul className='sub-menu'>
-              <li><Link href="/vps/kvm-vps">Software Consulting Services</Link></li>
-              <li><Link href="/vps/managed-vps">Product Development</Link></li>
-              <li><Link href="/vps/storage-vps">Mobile App Consulting</Link></li>
-              <li><Link href="/vps/storage-vps">Application Modernization</Link></li>
-              <li><Link href="/vps/storage-vps">SEO</Link></li>
+              <li><Link href="/vps/software-consulting-services">Software Consulting Services</Link></li>
+              <li><Link href="/vps/product-development">Product Development</Link></li>
+              <li><Link href="/vps/mobile-app-consulting">Mobile App Consulting</Link></li>
+              <li><Link href="/vps/application-modernization">Application Modernization</Link></li>
+              <li><Link href="/vps/seo">SEO</Link></li>
             </ul>
           </li>
-          <li><Link href="/support">Products</Link></li>
-          <li><Link href="/dedicated">Success Stories</Link></li>
+          <li><Link href="#">Products</Link></li>
+          <li><Link href="#">Success Stories</Link></li>
           {/* <li><Link href="/email">Email</Link></li> */}
           <li><Link href="/contact">Contact</Link></li>
         </ul>
-        <Link href="#"><a className='button view-desktop'>Login</a></Link>
+        {/* <Link href="#"><a className='button view-desktop'>Login</a></Link> */}
       </nav>
     </div>
   )

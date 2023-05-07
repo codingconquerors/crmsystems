@@ -4,9 +4,9 @@ const FooterBlock4 = () => {
     <div className="footer-block">
       <ul>
         <li><Link href="/about">About Us</Link></li>
-        <li><a href="#">Datacenter</a></li>
-        <li><a href="#">Knowledgebase</a></li>
-        <li><a href="#">Client Area</a></li>
+        <li><a href="/contact">Contact Us</a></li>
+        {/* <li><a href="#">Knowledgebase</a></li>
+        <li><a href="#">Client Area</a></li> */}
       </ul>
     </div>
   )
